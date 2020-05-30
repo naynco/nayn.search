@@ -1,0 +1,23 @@
+{
+  "name": "NAYN.SEARCH",
+  "description": "nayn yazıp haber sitelerinin çöplüğü olmadan arama sonuçlarını görün",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "omnibox": { "keyword" : "nayn" },
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": {
+      "16": "nayn_128.png",
+      "32": "nayn_128.png"
+      }
+  },
+  "icons": {
+    "16": "nayn_128.png",
+    "32": "nayn_128.png",
+    "48": "nayn_128.png",
+    "128": "nayn_128.png"
+  }
+}
